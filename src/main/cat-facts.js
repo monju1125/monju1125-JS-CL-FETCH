@@ -39,6 +39,9 @@ async function getFact(){
 
     //logging the http response to the console
     console.log(responseObject);
+
+    //display the cat fact on the page
+    content.innerText = responseObject.fact;
 }
 
 
